@@ -164,11 +164,11 @@ img{
         display: flex;
         flex-direction: column;
         min-width: auto;
-        max-width: 300px;
+        max-width: 550px;
     }
     .lado_esquerdo{
         background-color: #355586;
-        min-width: 300px;
+        min-width: 550px;
         display: flex;
         flex-direction: column;
     }
