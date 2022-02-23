@@ -7,7 +7,7 @@
 html, body{
     height: 100vh;
     width: 100vh;
-    background-color: lightblue;
+    background-color: olive;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -49,7 +49,7 @@ img{
     color: white;
     text-align: center;
     font-variant: small-caps;
-    margin: 30px 0px;
+    padding: 30px 0px;
 
 }
 
@@ -60,7 +60,7 @@ img{
 
 .bloco_informacao{
 
-    margin: 0px 10px 15px 30px;
+    padding: 0px 10px 15px 30px;
     display: flex;
     align-items: center;
     column-gap: 15px;
@@ -88,11 +88,7 @@ img{
     flex-direction: column ;
     align-items: flex-start;
     padding: 50px;
-}
-
-
-.experiencias{
-    
+    margin: 0;
 }
 
 .experiencias ul{
@@ -123,52 +119,47 @@ img{
 
 /* QUEBRA */
 
-@media (max-width: 992px){
+@media screen and (min-width: 601px) and (max-width: 992px){
     .principal{
-        width: 850px;
-        display: flex;
-        justify-content: center;
-
-    }
-    .lado_direito{
-        background-color: white;
-        display: flex;
-        min-width: auto;
-        max-width: 601px;
-        flex-wrap: wrap;
-    }
-    .lado_esquerdo{
-        background-color: #355586;
-        display: flex;
-        min-width: auto;
-        max-width: 300px;
-        
-    }
-    .experiencias{
-    
-    }
-    
-}
-
-@media (max-width: 600px){
-    .principal{
-        width: 400px;
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
+
     .lado_direito{
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        min-width: 400px;
-        max-width: 400px;
+        background-color: red;
+        
     }
     .lado_esquerdo{
         background-color: #355586;
-        min-width: 400px;
+
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .principal{
+        margin: 0 auto;
         display: flex;
+        align-items: flex-start;
+        justify-content: center;
         flex-direction: column;
+
+    }
+    .lado_direito{
+        background-color: royalblue;
+        display: flex;
+        width: 350px;
+        flex-direction: column ;
+        align-items: flex-start;
+        padding: 50px;
+    }
+    .lado_esquerdo{
+        background-color: #355586;
+        display: flex;
+        width: 350px;
+        flex-direction: column ;
+        align-items: flex-start;
+        padding: 50px;
+
     }
 }
