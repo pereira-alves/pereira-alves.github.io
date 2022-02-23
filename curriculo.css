@@ -17,7 +17,7 @@ h3{
 .foto{
     width: 250px;
     height: 250px;
-    background-image: url(../pereira-alves.github.io/Anderson-foto.jpg);
+    background-image: url(Anderson-foto.jpg);
     background-size: contain;
     border: 1px solid red;
     display: inline-block;
@@ -48,7 +48,8 @@ h3{
     text-align: center;
     display: flex;
     column-gap: 25px;
-    margin: 0px 15px 15px 15px;
+    margin: 0px 15px 0px 15px;
+    padding-bottom: 25px ;
 }
 
 .lado_esquerdo a{
@@ -70,7 +71,7 @@ h3{
 
 .experiencias ul{
     list-style-type: none;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 .experiencias ul li{
     margin-bottom: 0.3em;
