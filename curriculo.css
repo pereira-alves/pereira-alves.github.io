@@ -3,12 +3,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-}
-
-html, body{
-    height: 100vh;
-    width: 100vh;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -20,19 +14,16 @@ h3{
     color: #355586;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 15px auto;
-}
-
-
-.principal{
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+.foto{
+    width: 250px;
+    height: 250px;
+    background-image: url(../pereira-alves.github.io/Anderson-foto.jpg);
+    background-size: contain;
+    border: 1px solid red;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 110px;
+    margin: 50px;
 }
 
 
@@ -41,55 +32,40 @@ img{
 
 .lado_esquerdo{
     background-color: #355586;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
 }
 
 .titulo_contato{
     color: white;
-    text-align: center;
     font-variant: small-caps;
-    padding: 30px 0px;
-
+    margin: 50px 30px;
 }
-
 .material-icons{
     color: white;
-
 }
 
-.bloco_informacao{
-
-    padding: 0px 10px 15px 30px;
+.lado_esquerdo p{
+    color: white;
+    text-align: center;
     display: flex;
-    align-items: center;
-    column-gap: 15px;
+    column-gap: 25px;
+    margin: 0px 15px 15px 15px;
 }
-.bloco_informacao a{
+
+.lado_esquerdo a{
     color: white;
     text-decoration: none;
 }
-.bloco_informacao a:hover{
+.lado_esquerdo a:hover{
     color: red;
     transition: 1s;
 }
-.descricao{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 
 /* LADO DIREITO */
 
 .lado_direito{
     background-color: white;
-    display: flex;
-    width: 1200px;
-    flex-direction: column ;
-    align-items: flex-start;
-    padding: 50px;
-    margin: 0;
+    height: 100vh;
+    margin: 50px;
 }
 
 .experiencias ul{
@@ -101,7 +77,6 @@ img{
 }
 .bloco_informacao2 h3{
     margin: 1em 0px;
-
 }
 
 .bloco_informacao2 h1{
@@ -115,50 +90,4 @@ img{
 
 .destaque{
     margin-top: 25px;
-
-}
-
-/* QUEBRA */
-
-@media screen and (min-width: 601px) and (max-width: 992px){
-    .principal{
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .lado_direito{
-        background-color: white;
-        
-    }
-    .lado_esquerdo{
-        background-color: #355586;
-    }
-}
-
-@media screen and (min-width: 300px) and (max-width: 600px){
-    .principal{
-        margin: 0 auto;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-
-    }
-    .lado_direito{
-        background-color: white;
-        display: flex;
-        width: 450px;
-        flex-direction: column ;
-        align-items: flex-start;
-        padding: 50px;
-    }
-    .lado_esquerdo{
-        background-color: #355586;
-        display: flex;
-        width: 450px;
-        flex-direction: column ;
-        align-items: flex-start;
-        padding: 50px;
-    }
 }
