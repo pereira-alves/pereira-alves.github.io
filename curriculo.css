@@ -19,7 +19,6 @@ h3{
     height: 250px;
     background-image: url(Anderson-foto.jpg);
     background-size: contain;
-    border: 1px solid red;
     display: inline-block;
     box-sizing: border-box;
     border-radius: 110px;
