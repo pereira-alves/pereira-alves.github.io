@@ -7,7 +7,6 @@
 html, body{
     height: 100vh;
     width: 100vh;
-    background-color: olive;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -127,7 +126,7 @@ img{
     }
 
     .lado_direito{
-        background-color: red;
+        background-color: white;
         
     }
     .lado_esquerdo{
@@ -141,14 +140,14 @@ img{
         margin: 0 auto;
         display: flex;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
 
     }
     .lado_direito{
-        background-color: royalblue;
+        background-color: white;
         display: flex;
-        width: 350px;
+        width: 450px;
         flex-direction: column ;
         align-items: flex-start;
         padding: 50px;
@@ -156,10 +155,9 @@ img{
     .lado_esquerdo{
         background-color: #355586;
         display: flex;
-        width: 350px;
+        width: 450px;
         flex-direction: column ;
         align-items: flex-start;
         padding: 50px;
-
     }
 }
