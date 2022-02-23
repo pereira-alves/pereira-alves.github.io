@@ -152,8 +152,8 @@ img{
 
 @media (max-width: 600px){
     .principal{
-        width: 300px;
-        margin: 0 auto;
+        width: 390px;
+        margin: 0;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -163,12 +163,12 @@ img{
         background-color: white;
         display: flex;
         flex-direction: column;
-        min-width: auto;
+        min-width: 390px;
         max-width: 300px;
     }
     .lado_esquerdo{
         background-color: #355586;
-        min-width: 300px;
+        min-width: 390px;
         display: flex;
         flex-direction: column;
     }
