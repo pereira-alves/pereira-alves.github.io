@@ -152,7 +152,7 @@ img{
 
 @media (max-width: 600px){
     .principal{
-        width: 600px;
+        width: 300px;
         margin: 0 auto;
         display: flex;
         justify-content: center;
@@ -164,11 +164,11 @@ img{
         display: flex;
         flex-direction: column;
         min-width: auto;
-        max-width: 550px;
+        max-width: 300px;
     }
     .lado_esquerdo{
         background-color: #355586;
-        min-width: 550px;
+        min-width: 300px;
         display: flex;
         flex-direction: column;
     }
