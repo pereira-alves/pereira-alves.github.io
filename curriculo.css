@@ -15,22 +15,32 @@ h3{
 }
 
 .foto{
+    max-width: 90%;
     width: 250px;
     height: 250px;
     background-image: url(Anderson-foto.jpg);
-    background-size: contain;
-    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
     box-sizing: border-box;
-    border-radius: 110px;
-    margin: 50px;
+    border-radius: 50%;
+    margin: 10px auto 20px auto;
+
 }
 
+.progress{
+    max-width: 75%;
+    margin: 0 auto 15px auto;
+}
 
 /* LADO ESQUERDO */
 
 
 .lado_esquerdo{
     background-color: #355586;
+    padding-bottom: 25px;
+    padding-top: 10px;
 }
 
 .titulo_contato{
